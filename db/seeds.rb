@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+require 'csv'
+CSV.foreach("db/KEN_ALL.csv", encoding: 'UTF-8') do |info|
+  Postal.create(
+    postal_code: info[2],
+    prefecture: info[3],
+    city: info[4],
+    town: info[5],
+    )
+end
