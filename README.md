@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 実行方法
+URLにhttp://127.0.0.1:3000/search郵便番号を入力すると住所が帰ってくる
+存在しない場合はデータが存在しませんと帰ってくる
 
-Things you may want to cover:
+## 動作確認
 
-* Ruby version
+## 参考資料
 
-* System dependencies
+* https://www.mmsankosho.com/post-17618/
 
-* Configuration
+* https://uxmilk.jp/47955
 
-* Database creation
+* https://stackoverflow.com/questions/21347388/rails-uninitialized-constant-productcsv
 
-* Database initialization
+* https://qiita.com/STHEXA/items/1de2411cb3987066c9b9
 
-* How to run the test suite
+* https://qiita.com/_akira19/items/5e594c98611126760b50
 
-* Services (job queues, cache servers, search engines, etc.)
+* https://qiita.com/nakayuu07/items/3d5e2f8784b6f18186f2
 
-* Deployment instructions
+* https://qiita.com/si-ma/items/b985d20b0281e0553cf0
 
-* ...
+* https://magazine.techacademy.jp/magazine/18712
+
+* https://qiita.com/tkhshiq/items/ed15ccf7d7647d58e694
+
+* https://magazine.techacademy.jp/magazine/30510

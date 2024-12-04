@@ -1,10 +1,9 @@
 
   class SearchController < ApplicationController
 
-    def postal_code
-      binding.pry
+    def index
       @postal_code = Postal.where(postal_code:params[:postal_code].tr('０-９ａ-ｚＡ-Ｚ','0-9a-zA-Z'))
-      if @postal_code
+      if @postal_code.present?
         render json: @postal_code
       else
         puts "データがありません"
